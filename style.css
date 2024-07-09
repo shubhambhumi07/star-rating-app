@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #d5f2e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 30rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: 0 16px;
+}
+
+.star{
+    font-size: 10vh;
+    cursor: pointer;
+}
+
+.one{
+    color: rgb(255, 0, 0);
+}
+
+.two{
+    color: rgb(255, 106, 0);
+}
+
+.three{
+    color: rgb(255, 255, 120);
+}
+
+.four{
+    color: rgb(255, 255, 0);
+}
+
+.five{
+    color: rgb(24, 159, 14);
+}
